@@ -10,7 +10,7 @@ from . import isntinstance
 
 # Metadata
 __all__ = {"NoneList"}
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 
 # Definitions
@@ -61,7 +61,7 @@ class NoneList(list):
     # List method overrides
     def append(self, obj: Any) -> None:
         # Check if list is full
-        if len(self) + 1 == self.length:
+        if len(self) + 1 > self.length:
             raise IndexError("list is full")
         
         # Add item to list
