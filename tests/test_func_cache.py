@@ -7,7 +7,7 @@ from random import randint
 
 
 # Tests
-def cache_test():
+def works_test():
     """
     ### Summary
     Tests if the cache works as intended.
@@ -29,7 +29,7 @@ def cache_test():
     assert add(*nums) == result
 
 
-def method_cache_test():
+def methods_work_test():
     """
     ### Summary
     Tests if the cache works as intended with objects.

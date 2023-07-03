@@ -8,7 +8,7 @@ from timeit import timeit
 
 
 # Tests
-def thread_wrap_test():
+def works_test():
     """
     ### Summary
     Tests if the thread_wrap decorator works as intended.
@@ -23,7 +23,7 @@ def thread_wrap_test():
     assert timeit(long_function, number=10) < 2
 
 
-def method_thread_wrap_test():
+def methods_work_test():
     """
     ### Summary
     Tests if the thread_wrap decorator works as intended.
