@@ -13,7 +13,7 @@ from typing import Any, Callable
 
 
 # Metadata
-__all__ = ["func_cache", "thread_wrap"]
+__all__ = ["func_cache", "MatchCall", "thread_wrap"]
 __version__ = "1.0.3"
 
 
