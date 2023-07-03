@@ -8,4 +8,4 @@ __version__ = "0.1.0"
 
 
 # Imports
-from .hello import hello
+from ._hello import hello
