@@ -1,5 +1,5 @@
-# src/func_cache.py
-# Caches the return values of a function
+# functions.py
+# Holds function related utils
 
 
 # Imports
@@ -91,7 +91,7 @@ class MatchCall:
     
     
     def __call__(self, arg_match: Any, *args, **kwargs) -> Any:
-        self._run_function(arg_match, *args, **kwargs)
+        return self._run_function(arg_match, *args, **kwargs)
     
     
     def _run_function(self, arg_match, *args, **kwargs) -> Any:

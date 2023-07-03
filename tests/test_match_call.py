@@ -11,7 +11,7 @@ def works_test():
     
     # Imports
     from naters_utils.functions import MatchCall
-    
+
     # Define functions
     math = MatchCall()
     @math.case("add")
@@ -42,7 +42,7 @@ def no_arg_match_test():
     
     # Imports
     from naters_utils.functions import MatchCall
-    
+
     # Define functions
     math = MatchCall()
     @math.case()
@@ -59,7 +59,8 @@ def no_arg_match_test():
         return a / b
     
     # Test functionality
-    assert math("add", 1, 2) == 3
+    result = math("add", 1, 2)
+    assert result == 3
     assert math("subtract", 1, 2) == -1
     assert math("multiply", 1, 2) == 2
     assert math("divide", 1, 2) == 0.5
@@ -73,7 +74,7 @@ def works_with_objects_test():
     
     # Imports
     from naters_utils.functions import MatchCall
-    
+
     # Define class
     class Math:
         __call__ = MatchCall()
