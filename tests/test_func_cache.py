@@ -32,7 +32,7 @@ def cache_test():
 def method_cache_test():
     """
     ### Summary
-    Tests if the method cache works as intended with objects.
+    Tests if the cache works as intended with objects.
     """
     
     # Imports

@@ -4,7 +4,7 @@
 
 # Metadata
 __all__ = ["hello"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 # Imports
