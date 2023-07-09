@@ -3,10 +3,9 @@
 
 
 # Metadata
-__all__ = ["functions", "hello", "isntinstance", "iterables"]
-__version__ = "0.2.1"
+__all__ = ["functions", "hello", "objects", "iterables"]
+__version__ = "0.2.2"
 
 
 # Imports
 from ._hello import hello
-from ._isntinstance import isntinstance

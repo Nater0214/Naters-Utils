@@ -10,7 +10,7 @@ def works_test():
     """
     
     # Imports
-    from naters_utils import isntinstance
+    from naters_utils.objects import isntinstance
     
     # Test method
     assert isntinstance(1, int) == False

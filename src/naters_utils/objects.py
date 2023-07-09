@@ -1,9 +1,14 @@
-# _isntinstance.py
-# Contains the isntinstance function
+# objects.py
+# Holds object related utils
 
 
 # Imports
 from typing import Any
+
+
+# Metadata
+__all__ = ["isntinstance"]
+__version__ = "1.0.0"
 
 
 def isntinstance(obj: Any, types: type | tuple[type]) -> bool:
