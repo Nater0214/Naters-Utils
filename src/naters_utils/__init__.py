@@ -3,8 +3,8 @@
 
 
 # Metadata
-__all__ = ["functions", "hello", "objects", "iterables"]
-__version__ = "0.2.2"
+__all__ = ["functions", "hello", "iterables", "objects"]
+__version__ = "0.3.0"
 
 
 # Imports

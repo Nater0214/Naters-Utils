@@ -3,14 +3,16 @@
 
 
 # Imports
+from __future__ import annotations
+
 from typing import Any, Iterable
 
-from . import isntinstance
+from .objects import isntinstance
 
 
 # Metadata
-__all__ = {"NoneList"}
-__version__ = "1.0.1"
+__all__ = ["dynamic_iterable", "NoneList"]
+__version__ = "1.0.2"
 
 
 # Definitions
