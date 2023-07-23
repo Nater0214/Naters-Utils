@@ -2,6 +2,11 @@
 # Holds function related utils
 
 
+# Metadata
+__all__ = ["func_cache", "MatchCall", "thread_wrap"]
+__version__ = "1.0.5"
+
+
 # Imports
 from __future__ import annotations
 
@@ -10,11 +15,6 @@ from functools import partial
 from inspect import ismethod
 from threading import Thread
 from typing import Any, Callable
-
-
-# Metadata
-__all__ = ["func_cache", "MatchCall", "thread_wrap"]
-__version__ = "1.0.3"
 
 
 # Definitions
@@ -31,7 +31,7 @@ class MatchCall:
         
         ### Usage:
         >>> from naters_utils.functions import MatchCall
-        >>> math = SwitchCall()
+        >>> math = MatchCall()
         >>> @math.case("add")
         ... def add(a, b):
         ...     return a + b

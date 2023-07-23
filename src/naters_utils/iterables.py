@@ -2,17 +2,17 @@
 # Holds iterable utils
 
 
+# Metadata
+__all__ = ["dynamic_iterable", "NoneList"]
+__version__ = "1.0.3"
+
+
 # Imports
 from __future__ import annotations
 
 from typing import Any, Iterable
 
 from .objects import isntinstance
-
-
-# Metadata
-__all__ = ["dynamic_iterable", "NoneList"]
-__version__ = "1.0.2"
 
 
 # Definitions

@@ -2,13 +2,13 @@
 # Holds object related utils
 
 
-# Imports
-from typing import Any
-
-
 # Metadata
 __all__ = ["isntinstance"]
-__version__ = "1.0.0"
+__version__ = "1.0.1"
+
+
+# Imports
+from typing import Any
 
 
 def isntinstance(obj: Any, types: type | tuple[type]) -> bool:
