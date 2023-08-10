@@ -1,0 +1,16 @@
+# Setup
+FROM python:3.11.4
+WORKDIR /build
+
+# Install build requirements
+RUN pip3 install hatch
+
+# Copy files
+COPY . .
+
+# Build project
+RUN hatch build
+
+# Publish to PYPI
+ARG PYPI_API_KEY
+RUN hatch publish -r test -u Nater0214 -a ${PYPI_API_KEY}
